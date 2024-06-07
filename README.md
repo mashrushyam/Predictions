@@ -31,27 +31,28 @@ This project aims to predict the outcome of IPL matches using various machine le
 
 ## Setup Instructions
 1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd ipl-win-prediction`
+2. Navigate to the project directory: `cd ipl-win-predictor`
 3. Locate the CSV file:
    - The required CSV file can be found in the project directory.
    - If it's not present, ensure it's either provided within the repository or can be downloaded separately.
+   - Write the locations of csv file as per your location of file in app.py
 4. Install dependencies:
    - For Python backend:
      ```
-     cd backend
+     cd ipl-win-predector\ipl-win-predector-backend
      pip install -r requirements.txt
      ```
    - For React frontend:
      ```
-     cd frontend
+     cd ipl-win-predector
      npm install
      ```
 5. Start the Flask server:
-    cd backend
+    cd ipl-win-predector\ipl-win-predector-backend
     python app.py
 
 6. Start the React development server:
-    cd frontend
+    cd ipl-win-predector
     npm start
 7. Access the application at `http://localhost:3000`.
 
