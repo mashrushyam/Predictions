@@ -2,3 +2,5 @@ IPL_Final_Data.csv
 IPL_PlayerPerformance.csv
 IPL_TeamPerformance.csv
 pipe1.pkl
+*.json
+x.csv
